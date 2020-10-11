@@ -1,0 +1,129 @@
+@media screen and (max-width: 1250px){
+    html {font-size: 85%;}
+}
+@media screen and (max-width:1050px) {
+    html{
+        font-size: 75%;
+    }
+    .back_image_deckstop{
+        width: 70%;
+        height: 70%;
+    }
+}
+@media screen and (max-width: 900px) {
+    
+    .review_stars{
+        float: none;
+        top: 30%;
+    }
+    .review_description{
+        float: none;
+    }
+    .page_reviews_review{
+        height: 5rem;
+    }
+    .human_icon,
+    .name{
+        float: none;
+    }
+    .back_image_deckstop{
+        width: 70%;
+        height: 60%;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    html{
+        font-size: 60%;
+    }
+    .back_image_deckstop{
+        display: none;
+    }
+    .back_image_mobile{
+        display: inherit;
+        position: absolute;
+    }
+    .top-back_mobile{
+        top: 0;
+        left: 0;
+    }
+    .bottom-back_mobile{
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 55%;
+    }
+    .star{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .page_cell{
+        padding: 0 3rem;
+    }
+    .page_info,
+    .page_reviews_review,
+    .page_reviews
+    {
+        float: none;
+        display: block;
+        max-width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .page_reviews_review,
+    .page_reviews,
+    .review_description,
+    .review_description_item{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .review_stars{
+        margin: 0 auto;
+    }
+    .review_description_item,
+    .review_stars{
+        transform: translateX(-7%);
+    }
+    .page_reviews_review:first-child{
+        margin-top: 2rem;
+    }
+    .middle{
+        display: block;
+    }
+    .people_review{
+        width: 100%;
+        font-size: 70%;
+    }
+    .human_icon {
+height: 2.67rem;
+width: 2.67rem;
+    border-radius: 50%;
+    float: left;
+}
+.name{
+    text-align: left;
+    float: right; 
+    font-size: 0.85rem;
+    width: 75%;
+}
+}
+@media screen and (max-width: 500px){
+     .star{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+@media screen and (max-width: 400px){
+     .star{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .top-back_mobile{
+        width: 95%;
+        height: 30%;
+    }
+    .bottom-back_mobile{
+        height: 25%;
+    }
+}
